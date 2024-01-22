@@ -5,7 +5,7 @@ import { PaidOutlined } from '@mui/icons-material';
 const UserProfile = ()  => {
 
     const user = {
-        name : 'Tharindu Nanayakkara',
+        name : 'AKAIN THEWMAKA',
         school : 'Central College, Colombo',
         dob : 'January 3rd, 2009',
         email : 'tharindu@gmail.com',
