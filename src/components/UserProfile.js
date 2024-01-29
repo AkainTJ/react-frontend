@@ -6,24 +6,25 @@ const UserProfile = ()  => {
 
     const user = {
         name : 'AKAIN THEWMAKA',
-        school : 'Central College, Colombo',
-        dob : 'January 3rd, 2009',
-        email : 'tharindu@gmail.com',
+        school : 'NALANDA COLLEGE, Colombo',
+         BIRTH : '2010-4-27',
+        email : 'Akaintj@gmail.com',
         description : 'I am a programming enthusiast!',
-        hobby : '',
-        hometown : '',
-        age : '',
-        phone : '0112222222',
-        ambition : ''
+        hobby : ' Reading books',
+        hometown : 'Pelawatta',
+        age : '13',
+        phone : '0718187324',
+        ambition : 'Doctor'
     };
 
     return (
+        
        <Grid container spacing={3}>
         <Grid item xs={12} md={4} lg={3} style={{ marginTop : "64px"}}>
             <Paper style={{padding : 20 , textAlign : 'center' , alignItems : 'center', display : 'flex', justifyContent : 'center', flexDirection: 'column'}}>
                 <Avatar 
                 alt="My Image"
-                src="https://lakeoktransport.ca/images/avataaars3.png"
+                src="https://th.bing.com/th/id/OIP.tvaMwK3QuFxhTYg4PSNNVAHaHa?rs=1&pid=ImgDetMain"
                 sx={{width : 120 , height : 120}} />
                 <Typography variant="subtitle1">
                     {user.name}
@@ -45,6 +46,9 @@ const UserProfile = ()  => {
                     <strong>Description : </strong> {user.description}
                 </Typography>
             </Paper>
+            <center>
+            <img src='https://img1.picmix.com/output/pic/normal/7/6/2/8/10118267_b50de.gif'/>
+            </center>
         </Grid>
 
 

@@ -4,13 +4,13 @@ import React from 'react';
 const MyVillage = () => {
 
     const villageInfo = {
-        name: "Dehiwala",
+        name: "Galle",
         title: "My Hometown",
-        description: "Dehiwala-Mount Lavinia (Sinhala: දෙහිවල-ගල්කිස්ස, romanized: Dehivala-Galkissa; Tamil: தெஹிவளை-கல்கிசை, romanized: Tehivaḷai-Kalkicai), population 245,974 (2012), is a large municipality in Sri lanka, and covers an extent of 2,109 ha (5,210 acres). It lies south of the Colombo Municipal Council area and separated from it by the Dehiwala canal which forms the northern boundary of DMMC. Its southern limits lie in Borupana Road and the eastern boundary is Weras Ganga with its canal system and including some areas to its east (Pepiliyana, Gangodawila and Kohuwala). This town has extensive population and rapid industrialisation and urbanization in recent years. It is home to Sri Lanka's National Zoological Gardens, which remains one of Asia's largest. Colombo South Teaching Hospital, Kalubowila and Colombo Airport, Ratmalana are some important landmark in this area. Dehiwela-Mount Lavinia and Sri Jayawardenapura Kotte being two large suburban centres of the city of Colombo function together as one large urban agglomeration in the Region (Western Province). The overspill from the City in residential and commercial uses of land have rapidly urbanised these suburban centers. Dehiwela-Mount Lavinia and Sri Jayawardenpaura along with Colombo Municipal Council form the most urbanised part of the core area of the Colombo Metropolitan Region. Dehiwala and Mount Lavinia lie along the Galle Road artery, which runs along the coast to the south of the country.",
+        description: "Galle (Sinhala: ගාල්ල, romanized: Gālla; Tamil: காலி, romanized: Kāli) (formerly French: Point de Galle) is a major city in Sri Lanka, situated on the southwestern tip, 119 km (74 mi) from Colombo. Galle is the provincial capital and largest city of Southern Province, Sri Lanka and is the capital of Galle District.Galle was known as Gimhathiththa[1] before the arrival of the Portuguese in the 16th century, when it was the main port on the island. Ibn Batuta, a Moroccan Berber Muslim traveller in the 14th century, referred to it as Qali.[2] Galle reached the height of its development in the 18th century, during the Dutch colonial period. Galle is the best example of a fortified city built by the Portuguese in South and Southeast Asia, showing the interaction between Portuguese architectural styles and native traditions. The city was extensively fortified by the Dutch during the 17th century from 1649 onwards. The Galle fort is a World Heritage Site and is the largest remaining fortress in Asia built by European occupiers. Other prominent landmarks in Galle include the city's natural harbour, the National Maritime Museum, St. Mary's Cathedral founded by Jesuit priests, one of the main Shiva temples on the island, and Amangalla, the historic luxury hotel. On 26 December 2004, the city was devastated by the massive tsunami caused by the 2004 Indian Ocean earthquake, which occurred off the coast of Indonesia a thousand miles away. Thousands were killed in the city alone. Galle is home to the Galle International Stadium, which is considered to be one of the most picturesque cricket grounds in the world.[3] The ground, which was severely damaged by the tsunami, was rebuilt and test matches resumed there on 18 December 2007.Important natural geographical features in Galle include Rumassala in Unawatuna, a large mound-like hill that forms the eastern protective barrier to Galle Harbour. Local tradition associates this hill with some events of Ramayana, one of the great Hindu epics. The major river in the area is the Gin Ganga, which begins from Gongala Kanda, passes villages such as Neluwa, Nagoda, Baddegama, Thelikada and Wakwella, and reaches the sea at Gintota. The river is bridged at Wakwella by the Wakwella Bridge.",
         gallery: [
-            { id: 1, imageUrl: 'https://www.discover.lk/assets/Dehiwala-Zoological-Garden2.jpg', caption: 'Beauty of Dehiwala' },
-            { id: 2, imageUrl: 'https://i.ytimg.com/vi/E5WoVTAjcSs/maxresdefault.jpg', caption: 'Welcome to Dehiwala' },
-            { id: 3, imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Sri_Lanka_%28560056969%29.jpg/800px-Sri_Lanka_%28560056969%29.jpg', caption: 'A Glance of Dehiwala' },
+            { id: 1, imageUrl: 'https://th.bing.com/th/id/R.f2125daa8ee76a51fa2ec1e6d0e57fbd?rik=MbqSIXij6oBQOw&riu=http%3a%2f%2fwww.adventurouskate.com%2fwp-content%2fuploads%2f2014%2f12%2fDSC_04102.jpg&ehk=eccfOiAXeXRvKhmd88GjoqzuItgfnWCC8VpLKusgQ%2bI%3d&risl=&pid=ImgRaw&r=0', caption: 'Beauty of Dehiwala' },
+            { id: 2, imageUrl: 'https://img.lifeisoutside.com/getaways/2258/featured/result.jpg', caption: 'Welcome to Dehiwala' },
+            { id: 3, imageUrl: 'https://th.bing.com/th/id/R.c808f33f32933a434998be37d48b9484?rik=GHhh7enwMuFp4w&pid=ImgRaw&r=0', caption: 'A Glance of Dehiwala' },
         ]
     }
 
@@ -32,7 +32,8 @@ const MyVillage = () => {
                     <Typography variant="h5" gutterBottom>
                         Here is my location!
                     </Typography>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63383.18112512491!2d79.83774567915762!3d6.836669472582263!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae25a8d6ec1f8c3%3A0x47810f3e7d084753!2sDehiwala-Mount%20Lavinia!5e0!3m2!1sen!2slk!4v1704726674169!5m2!1sen!2slk" width="400" height="300" allowfullscreen="" loading="lazy" ></iframe>
+                   
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63480.83754120017!2d80.17071123165118!3d6.055975343779761!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae173bb6932fce3%3A0x4a35b903f9c64c03!2sGalle!5e0!3m2!1sen!2slk!4v1705507417239!5m2!1sen!2slk" width="400" height="300" allowfullscreen="" loading="lazy" ></iframe>
                 </Paper>
             </Grid>
             <Grid item xs={12}>
@@ -43,7 +44,7 @@ const MyVillage = () => {
                     {villageInfo.gallery.map((image) => (
                         <Grid item xs={12} sm={6} md={4} key={image.id}>
                             <Card>
-                                <CardMedia component="img" height="140" image={image.imageUrl} alt={image.caption} />
+                                <CardMedia component="img" height="400" image={image.imageUrl} alt={image.caption} />
                                 <CardContent>
                                     <Typography variant="caption" color="textSecondary">
                                         {image.caption}

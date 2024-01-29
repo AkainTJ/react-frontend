@@ -16,8 +16,13 @@ const rows = [
     createData("Passed Term Test", "School", "2023-01-10"),
     createData("Passed IT Course", "Software Development", "2023-11-13"),
     createData("2nd Place in Running Event", "Athletics", "2023-03-13"),
-    createData("Went to NASA", "Astronomy", "2023-08-13"),
-    createData("Went to Ferrari Company", "Automobile", "2024-08-13"),
+    createData("2nd place in 1st term test","Education","2023-5-6"),
+    createData("2nd place in 2nd term test","Education","2023-10-20"),
+    createData("4th place in 1st term test","Education","2022-5-6"),
+    createData("above 75 on all subjects  in 1st term test","Education","2023-5-6"),
+    createData("above 80 on all subjects in 1st term test","Education","2023-5-6"),
+    createData("above 85 on all subjects in 1st term test","Education","2023-5-6"),
+
 ];
 
 const headCells = [
